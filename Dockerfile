@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY book_catalog 
 
 # Command to run the FastAPI application using Uvicorn
-CMD ["uvicorn", "book_catalog.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "book_catalog.main:book_catalog", "--host", "0.0.0.0", "--port", "80"]
